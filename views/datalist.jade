@@ -1,0 +1,13 @@
+extends layout
+
+block content
+    h1.
+        DataList
+    u1
+        each data in datalist
+            p schema : 
+                 = data.schema
+            p id : 
+                 = data.id
+            p CDM type : 
+                 = data.CDM.type
